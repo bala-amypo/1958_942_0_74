@@ -7,4 +7,3 @@ public interface  Studentservice {
     Stuentity saveStudent(Stuentity student);
 }
 
-//Studentservice.java
