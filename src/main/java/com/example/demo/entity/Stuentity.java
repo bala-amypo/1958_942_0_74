@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 
 
 @Entity
-public class Studententity{
+public class Stuentity{
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
@@ -41,14 +41,14 @@ public class Studententity{
     public void setcgpa(float cgpa){
         this.cgpa=cgpa;
     }
-    public Studententity(Long id, String name,String email, float cgpa){
-        this.id=id;
+    public Stuentity(Long id, String name,String email, float cgpa){
+       
         this.name=name;
         this.email=email;
         this.cgpa=cgpa;
 
     }
-    public Studententity(){
+    public Stuentity(){
         
     }
 }
