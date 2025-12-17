@@ -29,13 +29,13 @@ public class Stuentity{
      public String getEmail(){
         return email;
     }
-    public void setEmail(Long ){
+    public void setEmail(String email ){
         this.email=email;
     }
      public float getcgpa(){
         return cgpa;
     }
-    public void setcgpa(float cgpa id){
+    public void setcgpa(float cgpa){
         this.cgpa=cgpa;
     }
     public Studententity (Long id,String name,String email,float cgpa){
