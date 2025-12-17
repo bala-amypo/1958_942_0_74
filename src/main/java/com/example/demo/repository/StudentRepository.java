@@ -10,3 +10,4 @@ public interface StudentRepository extends JpaRepository<Stuentity, Long> {
     
     
 }
+//StudentRepository.java
